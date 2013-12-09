@@ -22,3 +22,16 @@ Do
   * copy local.protected.conf.php to "conf" directory
   * set your custom theme for the frontend, if you need another beside "default"
   * protect the switch-url "/switch/" with common method
+
+acl.auth.php
+
+```
+*	@ALL	1
+*	@user	16
+```
+
+users.auth.php
+
+```
+user:5f4dcc3b5aa765d61d8327deb882cf99:Us Er:none@local:user
+```
