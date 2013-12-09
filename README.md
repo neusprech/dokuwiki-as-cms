@@ -1,4 +1,4 @@
 dokuwiki-as-cms
 ===============
 
-Configuration for using Dokuwiki as WebCMS
+Configuration for using Dokuwiki as WebCMS.
