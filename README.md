@@ -21,7 +21,11 @@ Do
   * create a copy of the dw-"data" path and name it e.g. "content", for easier future updates
   * copy local.protected.conf.php to "conf" directory
   * set your custom theme for the frontend, if you need another beside "default"
-  * protect the switch-url "/switch/" with common method
+  * protect the switch-url "/switch/" with your prefered way, e.g. htpasswd/htaccess
+
+  * per default the "frontend" is executed
+  * you may switch between the "frontend" and "backend" using the switch-url
+  * you need to login into the backend using dw-auth method, default here is "user:password"
 
 acl.auth.php
 
